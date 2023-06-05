@@ -1,0 +1,204 @@
+
+<!-- <p class="page1"> Pages</p>
+<p class="page2"> /</p>
+
+<p class="page3"> Manager</p>
+
+<p class="Man">Manage Seller</p>
+<p class="slash"> |</p>
+<p class="Customer"> Customer</p>
+
+<div class="verticalnavbar ">
+
+  <div class="diva1">
+
+  </div>
+
+  <nav>
+
+    <ul>
+      <p class="page1"> Pages</p>
+<p class="page2"> /</p>
+
+<p class="page3"> Manager</p>
+
+<p class="Man">Manage Seller</p>
+<p class="slash"> |</p>
+<p class="Customer"> Customer</p>
+      
+      <div class="text1234">
+      <input type="text" placeholder="         Type here...">
+    </div>
+      <div class="direct-icon">
+        <img src="assets\user-circle (1).png">
+      </div>
+      <div class="direct-icon2">Director</div>
+      <div class="Directicon1">
+        <img src="assets\cog.png">
+      </div>
+      <div class="Directicon2">
+        <img src="assets\bell (1).png">
+
+      </div>
+      <div class="ping">
+        <img src="assets\Shape (4).png">
+      </div>
+      
+    </ul>
+
+  </nav>
+
+</div> -->
+
+<div class="main">
+  <div  class="scrollable-content">
+  <div class="menudrawer">
+    
+<div class="main-dash">
+  
+<div class="icon1">
+<img src="assets/logo.png">
+
+ </div>
+  <!-- <div class="cpp">CPSS Dashboard</div>  -->
+ 
+</div>
+    <div class="main-dash">
+
+      <div class="icon2">
+
+        <img src="assets\icon (2).png">
+        
+        <a  class="Das-icon"routerLink="Dashboard">Dashboard</a>
+       
+
+        
+      </div>
+
+    </div>
+ <div>
+      <div class="main-dash">
+
+        <div class="icon3">
+
+          <img src="assets\icon (1).png">
+         
+          <a class="Man-icon" routerLink="Manage">Manage</a>
+       
+
+        </div>
+
+      </div>
+      <div class="main-dash">
+
+        <div class="icon4">
+
+          <img src="assets\icon (3).png">
+          <!-- <p class="Bil-icon"></p> -->
+          <a  class="Bil-icon"routerLink="Billing" >Billing</a>
+
+        </div>
+
+      </div>
+      <div class="main-dash">
+        <p class="Acc-tag">ACCOUNT PAGES</p>
+        <div class="main-dash">
+
+          <div class="icon5">
+
+            <img src="assets\icon (6).png">
+            
+            <a  class="profile-icon"routerLink="Profile">Profile</a>
+
+          </div>
+          <div class="main-dash">
+
+            <div class="icon6">
+
+              <img src="assets\icon (7).png">
+             
+              <a  class="sign-icon"routerLink="Sign out">Sign out</a>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+      <br>
+
+
+
+
+
+
+  
+
+      <!-- <div class="footer" >
+        <img src="assets\footer.png">
+
+      </div> -->
+
+      <div></div>
+
+
+
+    </div>
+
+
+
+  </div>
+
+
+   <!-- <div  class="table-box" class="scroll-bar">
+   <div class="done">done this month</div>
+    <div class="sevthr">73%</div>
+    <p>Manage Seller</p>
+
+
+    <table>
+
+      <tr class="row0">
+
+        <th class="col1">SELLER </th>
+
+        <th class="col2">BUDGET </th>
+
+        <th>AMOUNT</th>
+
+        <th>COMPLETION </th>
+
+        <th>Edit/Delete</th>
+      </tr>
+    
+        <ng-container *ngFor="let item of UserData">
+          <tr>
+            <td>
+              <img [src]="item.image">{{item.SELLER}}
+              <br>
+              <small class="small-f">{{item.email}}</small>
+            </td>
+            <td>{{item.BUDGET}}</td>
+            <td>{{item.AMOUNT}}</td>
+            <td>
+              {{item.COMPLETION}}%
+              <progress [value]="item.COMPLETION" max="100" [ngStyle]="getProgressBarStyles(item.COMPLETION)"></progress>
+            </td>
+            <td>
+              <button class="btn-edit">Edit</button>
+              <button class="btn-delete">Delete</button>
+            </td>
+          </tr>
+        </ng-container>
+      
+
+    </table>
+  </div>  
+   -->
+
+
+ 
+
+
+<router-outlet></router-outlet> 

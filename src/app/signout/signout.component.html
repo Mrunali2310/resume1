@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Logout Page</title>
+<!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+</head>
+<body>
+<!-- <div class="container">
+<h1>Logout Page</h1>
+<p>You have been successfully logged out.</p>
+<a href="login.html">Login again</a>
+</div> -->
+<div class="scrollable-content" >
+<div class="sign">Computer Shop system</div>
+<div class="signin"> sign in</div>
+<div class="enter">Enter the email and password provided to log in.</div>
+<div class="enter1">Enter</div>
+
+    <input  class="Email" type="text" placeholder="Email">
+  
+  <div class="pass">Password</div>
+  
+    <input class="pass1" type="text" placeholder="Password">
+    <div class="button" [ngClass]="{ 'on': isOn }" (click)="toggleButton()"></div>
+ 
+  <!-- <div class="switch">
+    <img src="assets/switch\on.png">
+  </div> -->
+  <div class="Rem">Remember me</div>
+  
+    <!-- <input  class="in" type="text" placeholder="                                       SIGN IN"> -->
+  
+  <div class="img">
+    <img button  src="assets/image.png"  >
+    <button  class="in" (click)="getVal3()"></button>
+    <div class="signname">SIGN IN</div>
+  </div>
+</div>
+</body>
+</html>

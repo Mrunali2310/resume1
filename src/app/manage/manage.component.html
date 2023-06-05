@@ -1,0 +1,102 @@
+<p class="page1"> Pages</p>
+<p class="page2"> /</p>
+<!-- <div class="cpp">CPSS Dashboard</div>  -->
+
+<p class="page3"> Manager</p>
+
+<p class="Man">Manage Seller</p>
+<p class="slash"> |</p>
+<p class="Customer"> Customer</p>
+
+<div class="verticalnavbar ">
+
+  <div class="diva1">
+
+  </div>
+
+  <nav>
+
+    <ul>
+      <p class="page1"> Pages</p>
+<p class="page2"> /</p>
+
+<p class="page3"> Manager</p>
+
+<p class="Man">Manage Seller</p>
+<p class="slash"> |</p>
+<p class="Customer"> Customer</p>
+      
+      <div class="text1234">
+      <input type="text" placeholder="         Type here...">
+    </div>
+      <div class="direct-icon">
+        <img src="assets\user-circle (1).png">
+      </div>
+      <div class="direct-icon2">Director</div>
+      <div class="Directicon1">
+        <img src="assets\cog.png">
+      </div>
+      <div class="Directicon2">
+        <img src="assets\bell (1).png">
+
+      </div>
+      <div class="ping">
+        <img src="assets\Shape (4).png">
+      </div>
+      
+    </ul>
+
+  </nav>
+
+</div>
+<div class="footer" >
+  <img src="assets\footer.png">
+
+</div>
+ 
+ 
+ <div  class="table-box"  >
+  <div class="done">done this month</div>
+   <div class="sevthr">73%</div>
+   <p>Manage Seller</p>
+
+
+   <table>
+
+     <tr class="row0">
+
+       <th class="col1">SELLER </th>
+
+       <th class="col2">BUDGET </th>
+
+       <th>AMOUNT</th>
+
+       <th>COMPLETION </th>
+
+       <th>Edit/Delete</th>
+     </tr>
+   <div class="scroll-bar" >
+       <ng-container *ngFor="let item of UserData">
+         <tr>
+           <td>
+            <img [src]="item.image">  {{item.SELLER}}
+           <br>
+             <small class="small-f">{{item.email}}</small>
+           </td>
+           <td>{{item.BUDGET}}</td>
+           <td>{{item.AMOUNT}}</td>
+           <td>
+             {{item.COMPLETION}}%
+             <progress [value]="item.COMPLETION" max="100" [ngStyle]="getProgressBarStyles(item.COMPLETION)"></progress>
+           </td>
+           <td>
+             <button class="btn-edit">Edit</button>
+             <button class="btn-delete">Delete</button>
+           </td>
+         </tr>
+       </ng-container>
+     </div>
+
+   </table>
+ </div>  
+ 

@@ -1,0 +1,288 @@
+body {
+
+  font-family: Arial, sans-serif;
+
+  background-color: #f2f2f2;
+
+}
+
+
+.container {
+
+  max-width: 400px;
+
+  margin: 100px auto;
+
+  padding: 20px;
+
+  background-color: #d18787;
+
+  border-radius: 5px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  text-align: center;
+
+}
+
+.sign{
+    position: absolute;
+width: 557px;
+height: 98px;
+left: 196px;
+top: 51px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 87px;
+letter-spacing: -0.387234px;
+
+color: #252F40;
+}
+
+h1 {
+
+  color: #333;
+
+}
+
+
+p {
+
+  color: #666;
+
+  margin-bottom: 20px;
+
+}
+
+
+a {
+
+  color: #fff;
+
+  background-color: #337ab7;
+
+  padding: 10px 20px;
+
+  text-decoration: none;
+
+  border-radius: 3px;
+
+}
+
+
+a:hover {
+
+  background-color: #286090;
+
+}
+.signin{
+    
+position: absolute;
+width: 114px;
+height: 49px;
+left: 196px;
+top: 250px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 49px;
+
+
+letter-spacing: -0.995745px;
+
+
+
+background: linear-gradient(135deg, #FF0080 0%, #7928CA 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+}
+.enter{
+    position: absolute;
+width: 441px;
+height: 27px;
+left: 196px;
+top: 315px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+letter-spacing: -0.553191px;
+
+color: #8392AB;
+
+}
+.enter1{
+    position: absolute;
+width: 31px;
+height: 16px;
+left: 196px;
+top: 386px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: -0.331915px;
+
+color: #252F40;
+
+}
+.Email{
+    position: absolute;
+    width: 361px;
+    height: 40px;
+    left: 196px;
+    top: 415px;
+    
+    background: #FFFFFF;
+    border: 1px solid #E293D3;
+    box-shadow: 0px 0px 0px 2px rgba(226, 147, 211, 0.499809);
+    border-radius: 6px;
+}
+.pass{
+    position: absolute;
+width: 54px;
+height: 16px;
+left: 196px;
+top: 479px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: -0.331915px;
+
+color: #252F40;
+
+}
+.pass1{
+    
+position: absolute;
+width: 361px;
+height: 40px;
+left: 196px;
+top: 508px;
+
+/* background: #FFFFFF;
+border: 1px solid #D9D9D9; */
+border-radius: 6px;
+}
+.switch{
+    position: absolute;
+width: 42px;
+height: 20px;
+left: 196px;
+top: 572px;
+
+background: #3A416F;
+border-radius: 10.5px;
+}
+.Rem{
+    position: absolute;
+width: 94px;
+height: 19px;
+left: 245px;
+top: 572px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+letter-spacing: -0.387234px;
+
+color: #252F40;
+
+}
+.signname{
+    position: absolute;
+width: 52px;
+height: 19px;
+left: -60%;
+right: 10px;
+top: 629px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+letter-spacing: -0.387234px;
+
+color:  #FFFFFF;;
+
+}
+.in {
+    position: absolute;
+    width: 361px;
+    height: 40px;
+    right: 980px;
+ 
+    top: 618px;
+    background: linear-gradient(135deg, #FF0080 0%, #7928CA 100%);
+    
+   
+    border-radius: 8px;
+}
+.img{
+  
+position: absolute;
+width: 753.5px;
+height: 708px;
+left: 786px;
+top: 0px;
+
+}
+.button {
+ display: inline-block;
+    width: 44px;
+    height: 20px;
+     left: 189px;
+    top: 571px;
+    border-radius: 17px;
+    background-color: #1d7a10;
+    position: absolute;
+     cursor: pointer;
+    
+    }
+     .button::before {
+    content: "";
+     position: absolute;
+     width: 16px;
+    height: 18px;
+     border-radius: 50%;
+    background-color:white;
+    transition: all 0.3s;
+     }
+    .button.on {
+    background-color: #3A416F;;
+    }
+    .button.on::before {
+    
+     transform: translatex(26px);
+    
+    }
+    .scrollable-content {
+     
+     position: fixed;
+      }
+      
+    
+    
+    

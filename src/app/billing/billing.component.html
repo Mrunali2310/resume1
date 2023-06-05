@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Billing Page</title>
+</head>
+<body>
+    <div class="vertical">
+    <div class="page">Pages </div>
+    <div class="slash">/</div>
+    <div class="billing">Billing</div>
+    <div class="darkbilling">Billing</div>
+    <div class="text1234">
+        <input type="text" placeholder="         Type here...">
+      </div>
+        <div class="direct-icon">
+          <img src="assets\user-circle (1).png">
+        </div>
+        <div class="direct-icon2">Director</div>
+        <div class="Directicon1">
+          <img src="assets\cog.png">
+        </div>
+        <div class="Directicon2">
+          <img src="assets\bell (1).png">
+  
+        </div>
+        <div class="ping">
+          <img src="assets\Shape (4).png">
+        </div>
+        
+      
+</div>
+<div class="horizantal">
+    <div class="Invoices">Invoices</div>
+    
+    <table>
+<thead>
+        <tr class="row0">
+   
+          <th class="col1">ID </th>
+          
+   
+          <th class="col2">DATE </th>
+   
+          <th class="col3">Price</th>
+   
+          <th class="col4">EXPORT </th>
+   
+          
+        </tr>
+    </thead>
+    <br><br><br><br><br>
+     
+    <ng-container *ngFor="let item of UserData">
+        <tr>
+          <td class="id">{{item.Id}}</td>
+          <td class="date">{{item.DATE}}</td>
+          <td class="price">{{item.price}}</td>
+          <td class="export">
+            <img [src]="item.image"> 
+            {{item.EXPORT}}
+          </td>
+        </tr>
+      </ng-container>
+      
+        
+      </table>
+      
+</div>
+</body>
+</html>
